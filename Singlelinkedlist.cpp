@@ -161,3 +161,13 @@ int main()
         mhs.traverse();
     }
         break;
+
+        case '4':
+        {
+            if (mhs.listEmpty()  == true)
+            {
+                cout << endl
+                     << "List Kosong" << endl;
+                break;
+            }
+               
